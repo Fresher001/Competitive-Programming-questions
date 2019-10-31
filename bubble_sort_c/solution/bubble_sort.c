@@ -1,3 +1,7 @@
+// Bubble sort for sorting the array in non decreasing order.
+// We will compare the current value and next value for all index of integers if there is doesnot no violation then we break. 
+// Else we swap those two values and repeat step 2.
+
 #include "bubble_sort.h"
 
 void	swap_values(int *a, int *b)
